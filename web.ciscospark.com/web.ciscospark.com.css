@@ -1,0 +1,105 @@
+/**
+ * @name: Cisco Spark Black
+ * @domain: web.ciscospark.com
+ */
+
+body,
+:not(pre)>code[class*=language-], pre[class*=language-],
+.activity-text code,
+.composer-wrapper,
+.composer-section,
+.teamDetails-list .listItem:hover:not(.isActive),
+.navigation .navigation-bar,
+#convos,
+.convo-filter-menu-list-header, 
+.convo-filter-menu-list,
+.convo-filter-menu-list-item,
+#conversation,
+.teamDetails,
+.teamsSection,
+.teamProfile-bottom,
+.activity-title,
+.activities-inner-wrapper,
+.room-actions-menu-icon {
+    background-color: #333;
+    color: white;
+}
+
+.roomListItem.isActive {
+    background-color: #17E1F4;
+}
+
+.roomListItem.isActive .roomListItem-description, .roomListItem.isActive .roomListItem-icon, .roomListItem.isActive .roomListItem-meeting-description, .roomListItem.isActive .roomListItem-meeting-time, .roomListItem.isActive .roomListItem-title-text, .roomListItem.isActive .roomListItem-title-time {
+    color: #333;
+    font-weight: bold;
+}
+
+.roomListItem:hover {
+    background-color: #C1CF5F;
+}
+
+.roomListItem:hover .roomListItem-description, .roomListItem:hover .roomListItem-icon, .roomListItem:hover .roomListItem-meeting-description, .roomListItem:hover .roomListItem-meeting-time, .roomListItem:hover .roomListItem-title-text, .roomListItem:hover .roomListItem-title-time {
+    color: #333;
+    font-weight: bold;
+}
+
+.roomListItem.isUnread .roomListItem-description, .roomListItem.isUnread .roomListItem-title-text, .roomListItem.isUnread .roomListItem-title-time {
+    color: #F5FF00;
+}
+
+
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.listItem {
+	color: #fff;
+}
+
+.roomListItem-description {
+    color: #fff;
+}
+
+.roomListItem-title-text {
+    color: #fff;
+}
+
+
+#message-composer, #search-composer { color: white!important; }
+
+ 
+#convos {
+    border: 3px solid #333;
+}
+
+
+.convo-filter-menu-list-header {
+    border: 3px solid #333;
+}
+
+
+.activity-text {
+    color: #fff !important;
+}
+
+#activities .activity-item.me .activity-text {
+    color: #fff !important;
+}
+
+.meta {
+    color: #fff !important;
+}
+
